@@ -6,9 +6,9 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python --version'
+                /*sh 'python --version'*/
                 echo ${SAUCE_ACCES}
-                echo 'hello world'
+                
             }
         }
     }
