@@ -8,6 +8,7 @@ pipeline {
             steps {
                 sh 'python --version'
                 echo ${SAUCE_ACCES}
+                echo 'hello world'
             }
         }
     }
