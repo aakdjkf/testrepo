@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker 'python:3.5.1' }   # agent just is where the job run. This use docker image and container to run
+    agent { docker 'python:3.5.1' }   
 	stages {
 	    stage('build') {
 	        steps {
