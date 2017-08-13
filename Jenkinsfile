@@ -1,4 +1,6 @@
 pipeline {
+    /* testing*/
+    //testing //
     agent { docker 'python:3.5.1' }   
 	stages {
 	    stage('build') {
